@@ -1,0 +1,23 @@
+.vertical-nav__list {
+    margin-left: 100px;
+    padding: 1rem;
+    border-radius: 16px;
+    background-color: var(--color-content-bg);
+    color: var(--color-content-text);
+
+    font-size: 20px;
+
+}
+
+.vertical-nav__item {
+    margin-bottom: 20px;
+
+    list-style-type: none;
+
+}
+
+@media (max-width: 40rem) {
+    .vertical-nav__list {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,58 @@
+/* Header.css - remember to import in Header.jsx */
+header {
+    display: grid;
+    grid-template-areas:
+        "header-logo header-login header-login"
+        "header-logo header-title header-hamburger-button"
+        "header-nav header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr;
+    
+    /* background-color: var(--color-header-bg); */
+    background: linear-gradient(90deg, var(--color-header-bg-1), var(--color-header-bg-2));
+    color: var(--color-header-text);
+}
+.button.modal__button--open {
+    grid-area: header-login;
+
+    justify-self: end;
+}
+
+.header__logo {
+    grid-area: header-logo;
+
+    height: 100px;
+    width: 100px;
+}
+
+.header__title {
+    grid-area: header-title;
+
+    text-align: center;
+}
+
+
+
+@media (min-width: 40rem) {
+    header {
+        grid-template-areas:
+            "header-logo header-login"
+            "header-logo header-title"
+            "header-logo header-nav"
+        ;
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .header__nav {
+        grid-area: header-nav;
+        
+        /* background-color: lime; */
+    }
+
+    .header__logo {
+        grid-area: header-logo;
+    
+        height: 110px;
+        width: 110px;
+    }
+}

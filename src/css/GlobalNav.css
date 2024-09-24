@@ -1,0 +1,103 @@
+.global-nav{
+    grid-area: header-hamburger-button;
+
+}
+
+.global-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    position:absolute;
+
+    /* background-color: var(--color-header-bg); */
+
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+
+}
+
+.global-nav__list--collapsed {
+    display: none;
+}
+
+.global-nav__button {
+    display: block;
+    transform: scale(var(--ggs,1))
+  }
+
+  .global-nav__button:focus {
+    max-height: inherit;
+  }
+  
+  .global-nav__toggle {
+    display: block;
+    
+    width: 40px;
+    height: 40px;
+    border-style:none;
+    border-radius: 3px;
+    margin-right: 1rem;
+
+    background-color: var(--color-header-bg);
+  }
+
+  /* below CSS adapted from https://css.gg under the MIT License */
+  .global-nav__button,
+  .global-nav__button::after,
+  .global-nav__button::before {
+    position: relative;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+  }
+  /* below CSS adapted from https://css.gg under the MIT License */
+  .global-nav__button::after,
+  .global-nav__button::before {
+    position: absolute;
+
+    top: -6px;
+
+    content: "";
+
+  }
+  /* below CSS adapted from https://css.gg under the MIT License */
+  .global-nav__button::after {
+    top: 6px
+  }
+
+a:link {
+    color: var(--color-header-text);
+    text-decoration: none;
+}       
+
+a:hover {
+    color: var(--color-text-hover);
+    text-decoration: underline;
+} 
+
+
+
+@media (min-width: 40rem) {
+
+    .global-nav__toggle {
+        display: none;
+    }
+
+    .global-nav__list {
+        flex-direction: row;
+        position: static;
+    }
+
+    .global-nav__list--collapsed {
+        display: flex;
+    }
+
+}

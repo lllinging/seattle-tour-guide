@@ -1,0 +1,43 @@
+.abouts {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.about {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 1px solid black;
+
+    background-color: #cedaec;
+}
+
+
+
+.about__pic1 {
+    order: 2
+}
+
+.about__title {
+    padding: 0.5rem;
+}
+
+.about__text {
+    text-align: left;
+    margin-right: auto
+}
+
+.about__pic {
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+}
+
+.about__text {
+    margin: 1rem;
+}
+

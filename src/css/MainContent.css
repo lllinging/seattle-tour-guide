@@ -1,0 +1,15 @@
+.main__contents {
+    margin-left: 10px;
+    margin-right: 100px;
+    padding: 1rem;
+    border-radius: 16px;
+    color: var(--color-content-text);
+    background: var(--color-content-bg);
+
+}
+
+@media (max-width: 40rem) {
+    .main__contents {
+        margin-right: 20px;
+    }
+}

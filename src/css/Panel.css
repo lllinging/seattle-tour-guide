@@ -1,0 +1,38 @@
+.panel {
+    display: grid;
+    grid-template-areas:
+        "panel-image panel-text"
+        "panel-image panel-recommendation"
+        
+    ;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 16px;
+
+    background-color: #526495;
+
+
+}
+
+.panel__image {
+    grid-area: panel-image;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+.panel__text {
+    grid-area: panel-text;
+
+    /* padding: 1rem; */
+}
+
+.panel__reconmmendation {
+    grid-area: panel-recommendation;
+}
+
+       

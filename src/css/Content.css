@@ -1,0 +1,12 @@
+.user__content {
+    grid-area: header-login;
+    justify-self: end;
+
+    padding: 0.5rem;
+
+}
+
+.user__logout {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

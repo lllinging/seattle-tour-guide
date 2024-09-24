@@ -1,0 +1,17 @@
+.modal {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
+
+  .modal__button--open {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    background-color: var(--color-header-bg);
+    color: var(--color-header-text);
+  }

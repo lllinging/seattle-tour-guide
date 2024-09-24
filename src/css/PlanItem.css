@@ -1,0 +1,14 @@
+.plans__container {
+    text-align: left
+}
+
+.plan__box {
+
+    border-bottom: 3px dashed #7079ab;
+
+    text-align: left;
+    font-size: 1.2rem;
+
+    
+}
+

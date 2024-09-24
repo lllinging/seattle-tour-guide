@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+html {    
+  position: relative;    
+  
+  min-height: 100%;
+}
+
+:root {
+  --color-blue-green-1: #1F6FA4;
+  --color-blue-green-2: #246F75;
+  --color-blue-green-3: #072110;
+  --color-blue-green-4: #236823;
+  --color-blue-green-5: #64B334;
+
+  --color-header-bg-1: #809eee;
+  --color-header-bg-2: #6074a9;
+  --color-header-text: white;
+  --color-page-bg: #bfccef;
+  --color-page-text: rgba(0, 0, 0, 0.916);
+  --color-content-bg: #4f66a5;
+  --color-content-text: white;
+  
+  --color-text-hover: #e4d60b;;
+}
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+
+input, select, textarea {
+  font: inherit;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}

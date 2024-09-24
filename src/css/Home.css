@@ -1,0 +1,38 @@
+.slides__container {
+    width: 900px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.main__text {
+    display: grid;
+    grid-template-areas:
+       
+        "vertical__nav main__content"
+    ;
+    grid-template-columns: auto 1fr;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main__content {
+    grid-area: main__content;
+  
+}
+
+.verticle__nav {
+    grid-area: vertical__nav;
+
+}
+
+
+@media (max-width: 900px) {
+    .slides__container {
+        width: 500px;
+        height: 250px;
+    }
+
+   
+}
+

@@ -1,0 +1,42 @@
+.panels {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+/* .panel {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 1px solid black;
+
+    background-color: #eee;
+} */
+
+
+
+.panel__pic1 {
+    order: 2
+}
+
+.panel__title {
+    padding: 0.5rem;
+}
+
+/* .panel__text {
+    text-align: left;
+    margin-right: auto
+} */
+
+.panel__pic {
+    width: 125px;
+    height: 125px;
+    margin: 0.5rem;
+}
+
+/* .panel__text {
+    margin: 1rem;
+} */
