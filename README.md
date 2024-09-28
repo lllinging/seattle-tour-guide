@@ -14,7 +14,7 @@ This project is a single-page application (SPA) built with HTML, CSS, JavaScript
 **Gallery:** A collection of images that can be filtered or sorted based on user preferences.  
 **Modal Form:** A form that allows users to change data displayed in the app, such as updating their profile information.  
 
-Project starts
+## Project starts
 1. Install Dependencies:  
 ```npm install```  
   
